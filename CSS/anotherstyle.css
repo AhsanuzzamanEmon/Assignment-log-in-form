@@ -1,0 +1,49 @@
+body{
+	background:url(../img/vc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login-section {
+background-color: cyan;
+padding: 30px;
+width: 500px;
+margin: 12% auto;
+border-radius: 30px;
+height: 350px;
+display: block;
+}
+.login-section input{
+height: 50px;
+ margin:5px auto;
+ width: 200px;
+ padding: 5px;
+
+}
+.submit{
+background-color: white; 
+margin:50px;
+width:70px;
+height: 30px;
+border-radius: 20%;
+cursor: pointer;
+
+box-shadow: 2px 2px 2px;
+display: block;
+
+}
+.login-section h2{
+ text-align: center;
+}
+.submit:hover{
+box-shadow: 2px 2px 2px;
+transition: 1s ease-in-out;
+-webkit-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+background-color: blue;
+}
+.form-control{
+border-radius: 20%;
+height: 30px;
+width: 200px;
+}

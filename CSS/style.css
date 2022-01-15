@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+}
+.container{
+	 
+	margin: 0 auto;
+}
+body{
+	background:url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login-section {
+background-color: lightblue;
+padding: 30px;
+width: 220px;
+margin: 8% auto;
+border-radius: 30px;
+transition: 2s ease-in-out;
+}
+
+.login-section img{
+ height:150px;
+ display: block;
+ margin: 0 auto;
+}
+.login-section input{
+ display: block;
+ margin: 5px auto;
+}
+.login-section h2{
+ text-align: center;
+}
+
+.form-control{
+border-radius: 25%;
+height: 30px;
+width: 200px;
+}
+
+.submit{
+background-color: cyan; 
+margin:50px;
+width:70px;
+height: 30px;
+border-radius: 20%;
+cursor: pointer;
+transition: 0.10s ease-in-out;
+box-shadow: 2px 2px 2px;
+display: block;
+
+}
+h1{
+	text-align: center;
+	margin: 50px;
+	display: block;
+	color: white;
+}
+.submit:hover{
+box-shadow: 2px 2px 2px;
+transition: 1s ease-in-out;
+-webkit-transition: 1s ease-in-out;
+-o-transition: 1s ease-in-out;
+-moz-transition: 1s ease-in-out;
+background-color: blue;
+}
+p{
+	text-align: center;
+}
